@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  // Relative base so the same build works on Cloudflare Pages and GitHub Pages project sites.
+  base: './',
   build: {
     target: 'es2022',
     sourcemap: false,
