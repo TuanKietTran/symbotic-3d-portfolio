@@ -37,7 +37,7 @@ See [`docs/architecture.md`](docs/architecture.md) for lifecycle, performance bu
 ## Controls
 
 - Digital twin: drag to orbit, wheel to zoom, click objects for details; use control-deck buttons for pause, speed, camera, workload, and quality.
-- GPU lab: opt in with **Load**, initialize, then focus its canvas and use WASD or arrow keys. Start/pause/reset and workload presets are available without pointer lock.
+- GPU lab: opt in with **Load**, initialize the original corridor renderer, then focus its canvas and use WASD or arrow keys to navigate. It is a measurable GPU workload, not a DOOM game; start/pause/reset and workload presets are available without pointer lock.
 - The site respects `prefers-reduced-motion` and keeps case-study content available if graphics initialization fails.
 
 ## Deploy
@@ -69,4 +69,4 @@ Runtime dependencies:
 - [Three.js](https://github.com/mrdoob/three.js) — MIT
 - [Vite](https://github.com/vitejs/vite) — MIT
 
-The DOOM-inspired benchmark is original procedural shader code. It includes **no** Doom engine code, proprietary Doom WAD, Freedoom WAD, textures, sounds, models, or third-party game assets. Google Fonts are requested by CSS with system-font fallbacks; no font binaries are redistributed in this repository.
+The GPU corridor benchmark is original procedural shader code depicting an industrial passage with converging walls, floor lanes, ceiling panels, and lighting. It is **not a DOOM game** and includes no Doom engine code, proprietary Doom WAD, Freedoom WAD, textures, sounds, models, or third-party game assets. Google Fonts are requested by CSS with system-font fallbacks; no font binaries are redistributed in this repository.
