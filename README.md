@@ -51,6 +51,10 @@ npx wrangler pages deploy dist --project-name symbotic-3d-portfolio
 
 Do not report deployment success until Wrangler returns a real URL and HTTP/browser smoke tests pass. No paid plan or custom domain is required.
 
+## Live deployment
+
+https://tuankiettran.github.io/symbotic-3d-portfolio/
+
 ## Evidence policy
 
 Public-project descriptions are sourced from local checkouts of public repositories under `github.com/TuanKietTran`. No employer, degree, tenure, or unsupported production metric is asserted. 3D/WebGPU skills are presented as capabilities demonstrated by this codebase.
